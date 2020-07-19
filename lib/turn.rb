@@ -47,4 +47,5 @@ end
 def move(board, location, current_player = "X")
   board[location.to_i-1] = current_player
 def move(board, index, current_player = "X")
-  board[index] = cur
+  board[index] = current_player
+end
